@@ -15,9 +15,9 @@ function Counter({incrementBy, buttonColor }) {
             <p>Count: {count}</p>
             <button
             onClick={handleIncrement}
-            style={{backgroundColor: buttonColor}}
+            style={{backgroundColor: buttonColor, color:'black'}}
             >
-                Increment by {incrementBy}
+                +{incrementBy}
             </button>
         </div>
     );
